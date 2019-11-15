@@ -8,7 +8,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,6 +17,29 @@
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+input {
+  padding: 5px;
+  margin-right: 10px;
+  width: 350px;
+  font-size: 20px;
+}
+
+button {
+  padding: 5px;
+}
+
+.Main {
+  text-align: left;
+  margin: 30px 200px;
+}
+.Main pre {
+  background: #eee;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.Result {
+  border: 1px solid #ccc;
+  margin-top: 15px;
+  padding: 10px;
 }
